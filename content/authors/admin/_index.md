@@ -48,7 +48,7 @@ social:
   link: 'mailto:colin.bosma@maine.edu'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: ttps://twitter.com/cmbosma
+  link: https://twitter.com/cmbosma
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=acxXDGQAAAAJ&hl=en

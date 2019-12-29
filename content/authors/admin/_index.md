@@ -18,7 +18,7 @@ organizations:
   url: "https://umaine.edu/psychology/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
 - Emotion Regulation
@@ -31,10 +31,10 @@ education:
     - course: PhD in Clinical Psychology
     institution: University of Maine
     year: 2021 (Expected)
-  - course: MA in Clinical Psychology
+    - course: MA in Clinical Psychology
     institution: University of Maine
     year: 2017
-  - course: BS (Honors) Psychology
+    - course: BS (Honors) Psychology
     institution: Universit of Colorado Boulder
     year: 2012
 
@@ -74,6 +74,6 @@ user_groups:
 - Visitors
 ---
 
-Colin is currently a Ph.D. candidate in the University of Maine clinical psychology doctoral program and is in the [Maine Mood Lab](https://umaine.edu/mmdl/). 
+Colin is currently a Ph.D. candidate in the University of Maine clinical psychology doctoral program and is in the [Maine Mood Lab](https://umaine.edu/mmdl/).
 
-Colin's primary research interests involve individual differences in emotion regulation (cognitive, psychophysiological, and behavioral) in response to negative mood. He is interested in how the passive collection of digital behaviors (digital phenotyping) can advance our ability to assess individual differences in emotion regulation. He is also interested in mechanisms of positive outcomes associated with mindfulness-based treatments, as well as statistical analysis techniques for evaluation of the time-varying, multilevel quality of clinical data (e.g., hierarchical linear modeling, statistical learning). 
+Colin's primary research interests involve individual differences in emotion regulation (cognitive, psychophysiological, and behavioral) in response to negative mood. He is interested in how the passive collection of digital behaviors (digital phenotyping) can advance our ability to assess individual differences in emotion regulation. He is also interested in mechanisms of positive outcomes associated with mindfulness-based treatments, as well as statistical analysis techniques for evaluation of the time-varying, multilevel quality of clinical data (e.g., hierarchical linear modeling, statistical learning).

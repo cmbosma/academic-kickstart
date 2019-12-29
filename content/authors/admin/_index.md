@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Colin Bosma
 
 # Username (this should match the folder name)
 authors:
@@ -10,20 +10,20 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: PhD Candidate in Clinical Psychology
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: University of Maine
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include emotion regulation, digital phenotyping, and mindfulness.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Emotion Regulation
+- Digital Phenotyping
+- Mindfulness
 
 education:
   courses:

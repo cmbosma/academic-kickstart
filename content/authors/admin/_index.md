@@ -74,6 +74,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Colin is currently a Ph.D. candidate in the University of Maine clinical psychology doctoral program and is in the [Maine Mood Lab](https://umaine.edu/mmdl/). 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Colin's primary research interests involve individual differences in emotion regulation (cognitive, psychophysiological, and behavioral) in response to negative mood. He is interested in how the passive collection of digital behaviors (digital phenotyping) can advance our ability to assess individual differences in emotion regulation. He is also interested in mechanisms of positive outcomes associated with mindfulness-based treatments, as well as statistical analysis techniques for evaluation of the time-varying, multilevel quality of clinical data (e.g., hierarchical linear modeling, statistical learning). 

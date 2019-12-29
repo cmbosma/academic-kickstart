@@ -1,0 +1,11 @@
+## Hugo Academic Deployment Notes
+
+
+Installation
+
+- Used the Netlify academic-kickstart (https://sourcethemes.com/academic/docs/install/)
+- Created a GitHub repo and generated a netlify URL 
+- Applied 'cmbosma.rbind.io' domain as primary domain
+- cloned to desktop 
+- Moved config.tomi file to the root of the directory for compatibility with RStudio and Blogdown
+- changed baseurl to https://gallant-yalow-b0401c.netlify.com/ in config.toml

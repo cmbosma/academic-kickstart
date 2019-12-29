@@ -24,12 +24,13 @@ interests:
 - Emotion Regulation
 - Digital Phenotyping
 - Mindfulness
+- R, Python
 
 education:
   courses:
   - course: PhD in Clinical Psychology
     institution: University of Maine
-    year: 2021
+    year: expected 2021
   - course: MA in Clinical Psychology
     institution: University of Maine
     year: 2017

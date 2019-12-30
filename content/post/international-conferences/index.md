@@ -28,4 +28,4 @@ image:
 projects: []
 ---
 
-(International Conferences)[https://medium.com/@cmbosma/on-attending-international-conferences-af9f192cdc02]
+[International Conferences](https://medium.com/@cmbosma/on-attending-international-conferences-af9f192cdc02])

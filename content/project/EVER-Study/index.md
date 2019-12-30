@@ -6,7 +6,7 @@ summary: "Investigation of the ecological validity of emotion regulation strateg
 authors: []
 tags: ["emotion regulation", "digital phenotyping", "digital behaviors", "validity"]
 categories: []
-date: 2019-12-29T23:51:40-05:00
+date: 2019-12-30T14:58:36-05:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -15,17 +15,17 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Photo by Jason Blackeye from Unsplash"
+  caption: ""
   focal_point: ""
   preview_only: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-links:
- - name: OSF Project URL
-   url: https://osf.io/nmwc3/
-   icon_pack: ai
-   icon: osf
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
 
 url_code: ""
 url_pdf: ""

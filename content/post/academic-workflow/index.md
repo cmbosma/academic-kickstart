@@ -36,7 +36,7 @@ When I began working on my dissertation proposal, I realized I needed to tighten
 
 **Email: Gmail**
 
-Gmail finally adopted many of the features I love about Inbox by Google. Now that these features have been added to Gmail, Inbox is going away. This is unfortunate as Inbox by Google did an amazing job of making your inbox into a todo list. Although Gmail has some shortcomings, it gets the job done.
+Gmail finally adopted many of the features I love about Inbox by Google. Now that these features have been added to Gmail, Inbox is going away. This is unfortunate as Inbox by Google did an amazing job of making your inbox into a to-do list. Although Gmail has some shortcomings, it gets the job done.
 
 *Email tip*: I created a backup Gmail account for my personal and university email addresses. Every email I receive is forwarded to these backup accounts. That way if I accidentally delete and email, I can retrieve it. This will also be helpful for when my university email is deleted.
 
@@ -57,6 +57,7 @@ nvALT is a note-taking program that is shortcut-driven. You can quickly open the
 **Capturing and processing existing knowledge: Mendeley, plain text**
 
 I use Mendeley to manage my library of research articles and references. I used Mendeley because it is the most robust and flexible reference manager I have used.
+
 My workflow is Mendeley involves syncing my library with folders on my computer. I organize the folders on my computer by broad topic areas (e.g., emotion theory, mindfulness, etc.) I also set up Mendeley to create a backup library of all of my articles sorted by author, date, and title. The in-text citation plug-in for Microsoft Word is decent enough. A little buggy with the newest version of MS Word for Mac, but it still makes for a more efficient workflow than writing reference lists manually.
 
 Although Readcube is doing some cool stuff with their new Papers app, I don't like the idea of paying a subscription fee. F1000 Workspace is the only manager with a Google Docs in-text citation plug-in and might be worth trying for that reason alone. I do not use Zotero because the free space cap before paying for a subscription is pretty limited.
@@ -65,7 +66,7 @@ For annotating when I review literature, I use plain text notes. I do this to av
 
 I am currently experimenting with saving my annotations in a spreadsheet, as I want them to be centralized and searchable.
 
-I use a combination of plain text and Google Keep to take notes and save useful resources. Plain text notes allow me to think critically about what I am actually writing for my notes and give me the flexibility of editing my notes in pretty much any word-processing program. Google Keep is a nice application for organizing helpful online resources and general notes. It's organized using a labelling system, which is nice for items that fall under more than on category.
+I use a combination of plain text and Google Keep to take notes and save useful resources. Plain text notes allow me to think critically about what I am actually writing for my notes and give me the flexibility of editing my notes in pretty much any word-processing program. Google Keep is a nice application for organizing helpful online resources and general notes. It's organized using a labeling system, which is nice for items that fall under more than on category.
 
 **Project Organization: Trello, Github**
 

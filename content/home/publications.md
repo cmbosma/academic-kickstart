@@ -64,8 +64,10 @@ subtitle = ""
 
  # CSS class.
  css_class = ""
-+++
 
-#{{% alert note %}}
-#Quickly discover relevant content by [filtering publications]({{< ref "/#publication/_index.md" >}}).
-#{{% /alert %}}
+ # Uncomment the lines below to create a filtering option on the homepage
+ #{{% alert note %}}
+ #Quickly discover relevant content by [filtering publications]({{< ref "/#publication/_index.md" >}}).
+ #{{% /alert %}}
+ 
++++

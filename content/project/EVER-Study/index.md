@@ -1,29 +1,41 @@
-+++
-# Project title.
-title = "Ecological Validity of Emotion Regulation (EVER) Study"
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-# Date this page was created.
-date = 2018-10-20T00:00:00
-
-# Project summary to display on homepage.
-summary = "Investigation of the ecological validity of emotion regulation strategies using an evaluation of the relationships between self-report, psychophysiology, and digital behaviors."
-
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Emotion Regulation", "Digital Behavior"]
+title: "EVER Study Updated"
+summary: ""
+authors: []
+tags: []
+categories: []
+date: 2019-12-29T23:51:40-05:00
 
 # Optional external URL for project (replaces project detail page).
-# external_link = "http://example.org"
+external_link: ""
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your project's folder. 
-[image]
-  # Caption (optional)
-  caption = "Photo by Jason Blackeye from Unsplash"
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
 
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
-+++
+# Custom links (optional).
+#   Uncomment and edit lines below to show custom links.
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
 
-The Ecological Validity of Emotion Regulation Study is a multimethod investigation of individual differences in emotion regulation and an evaluation of the psychometric validity of previously established emotion regulation strategies.
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ""
+---

@@ -9,3 +9,8 @@ Installation
 - cloned to desktop 
 - Moved config.tomi file to the root of the directory for compatibility with RStudio and Blogdown
 - changed baseurl to https://gallant-yalow-b0401c.netlify.com/ in config.toml
+
+
+Updating
+- Got to netlify.com and sign in using GitHub credentials
+- You can see deployment updates via the netflify website

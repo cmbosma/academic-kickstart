@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "On Attending International Conferences"
+title: "[International Conferences](https://medium.com/@cmbosma/on-attending-international-conferences-af9f192cdc02)"
 subtitle: ""
 summary: ""
 authors: ["Colin M. Bosma"]
@@ -28,4 +28,4 @@ image:
 projects: []
 ---
 
-[International Conferences](https://medium.com/@cmbosma/on-attending-international-conferences-af9f192cdc02])
+[International Conferences](https://medium.com/@cmbosma/on-attending-international-conferences-af9f192cdc02)

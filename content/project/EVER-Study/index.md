@@ -22,7 +22,7 @@ image:
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
- - name: OSF Project
+ - name: OSF Project URL
    url: https://osf.io/nmwc3/
    icon_pack: ai
    icon: osf

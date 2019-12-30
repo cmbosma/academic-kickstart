@@ -5,7 +5,7 @@ title: "My Academic Workflow"
 subtitle: ""
 summary: ""
 authors: ["Colin Bosma"]
-tags: []
+tags: ["productivity", "workflow", "academia"]
 categories: []
 date: 2019-12-30T00:44:10-05:00
 lastmod: 2019-12-30T00:44:10-05:00
@@ -58,7 +58,7 @@ nvALT is a note-taking program that is shortcut-driven. You can quickly open the
 
 I use Mendeley to manage my library of research articles and references. I used Mendeley because it is the most robust and flexible reference manager I have used.
 
-My workflow is Mendeley involves syncing my library with folders on my computer. I organize the folders on my computer by broad topic areas (e.g., emotion theory, mindfulness, etc.) I also set up Mendeley to create a backup library of all of my articles sorted by author, date, and title. The in-text citation plug-in for Microsoft Word is decent enough. A little buggy with the newest version of MS Word for Mac, but it still makes for a more efficient workflow than writing reference lists manually.
+My workflow in Mendeley involves syncing my library with folders on my computer. I organize the folders on my computer by broad topic areas (e.g., emotion theory, mindfulness, etc.) I also set up Mendeley to create a backup library of all of my articles sorted by author, date, and title. The in-text citation plug-in for Microsoft Word is decent enough. A little buggy with the newest version of MS Word for Mac, but it still makes for a more efficient workflow than writing reference lists manually.
 
 Although Readcube is doing some cool stuff with their new Papers app, I don't like the idea of paying a subscription fee. F1000 Workspace is the only manager with a Google Docs in-text citation plug-in and might be worth trying for that reason alone. I do not use Zotero because the free space cap before paying for a subscription is pretty limited.
 

@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Ecological Validity of Emotion Regulation (EVER) Study"
-summary: "Investigation of the ecological validity of emotion regulation strategies using an evaluation of the relationships between self-report, psychophysiology, and digital behaviors."
+summary: ""
 authors: []
 tags: ["emotion regulation", "digital phenotyping", "digital behaviors", "validity"]
 categories: []
@@ -39,3 +39,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+The EVER study is an investigation of the ecological validity of emotion regulation strategies using an evaluation of the relationships between self-report, psychophysiology, and digital behaviors.

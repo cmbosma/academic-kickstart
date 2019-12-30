@@ -4,7 +4,7 @@
 title: "Mindful creativity matters: trajectories of reported functioning after severe traumatic brain injury as a function of mindful creativity in patients' relatives: a multilevel analysis"
 authors: ["Chiara Haller", "Colin M. Bosma", "Kush Kapur", "Ross Zafonte", "Ellen Langer"]
 date: 2017-04-01T23:27:51-05:00
-doi: ""
+doi: "10.1007/s11136-016-1416-1"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2019-12-29T23:27:51-05:00

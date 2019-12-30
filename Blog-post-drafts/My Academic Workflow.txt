@@ -39,7 +39,7 @@ I use a combination of plain text and Google Keep to take notes and save useful 
 
 **Project Organization: Trello**
 
-I use Trello to organize research projects. The Kanban board design is useful for keeping track what needs to be done, what is in progress, and what has been done. T
+I use Trello to organize research projects. The Kanban board design is useful for keeping track what needs to be done, what is in progress, and what has been done. I find that traditional to-do lists become too unwieldy for large projects. Using Trello breaks down each aspect of a project into smaller parts and can host to-do lists within each aspect or higher-order task. Although this can be accomplished in a robust to-do list application, Trello's platform already facilitates this kind of work flow and will save you time for that reason.
 
 **Creating New Knowledge: Microsoft Word, Google Docs**
 
@@ -47,9 +47,9 @@ I, unfortunately, write my manuscripts in Microsoft Word and Google Docs (depend
 
 **Disseminating Knowledge: Powerpoint, RMarkdown**
 
+I stick with Microsoft Powerpoint for creating slides and posters for presentations. Since Powerpoint is the most popular, I stick with it for sharing and collaboration. 
 
-- Powerpoint 
-- RMarkdown 
+Whenever possible, I use [R Markdown](https://rmarkdown.rstudio.com/) to document and display my analysis. R Markdown documents are part an extension of R Studio that integrate Markdown Syntax and R code (Python and SQL are supported). R Markdown is incredibly flexible as it can generate outputs in just about any format, such as PDFs, static web pages, MS Word, articles, slides, and even whole books. 
 
 
 

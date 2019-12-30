@@ -28,8 +28,6 @@ image:
 projects: []
 ---
 
-## My Academic Workflow
-
 When I began working on my dissertation proposal, I realized I needed to tighten up my workflow. I found the internet is lacking in examples of streamlined academic workflows. The examples I have come across are either complicated by mentioning too many applications or they feature outdated applications. Below is my current academic workflow. I put this together to help me think through it myself and to provide a reference for others to use.
 
 ### Task Management

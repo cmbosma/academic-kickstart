@@ -14,3 +14,6 @@ Installation
 Updating
 - Got to netlify.com and sign in using GitHub credentials
 - You can see deployment updates via the netflify website
+
+Hugo Academic Documentation
+- URL: https://sourcethemes.com/academic/docs/

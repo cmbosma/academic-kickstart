@@ -13,16 +13,16 @@ publishDate: 2019-12-29T20:17:33-05:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["6"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Nove Science Publishers*"
+publication: "In *Nova Science Publishers*"
 publication_short: ""
 
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "Chapter discussing the ethical implications of the religious and spiritual identities in patient-practitioner interactions."
 
 tags: []
 categories: []

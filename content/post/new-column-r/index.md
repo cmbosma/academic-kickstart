@@ -74,7 +74,8 @@ Here is the table you would get from this R code.
 | b    | 23   | 23   |
 | c    | 13   | NA   |
 
-Since these abstract examples can be a little tricky to apply to our own stuff, here's an example resembling a real data set, such as an experiential momentary assessment data set. Below is a table with data in long format. We want to make separate a column for negative affect subscale of the Positive and Negative Affect Schedule (PANAS-X) to conduct analyses solely on those scores. Although this can be accomplished with the data in wide format, you may want to keep it in long format. 
+Since these abstract examples can be a little tricky to apply to our own stuff, here's an example resembling a real data set, such as an experiential momentary assessment data set. Below is a table with data in long format. We want to make separate a column for negative affect subscale of the Positive and Negative Affect Schedule (PANAS-X) to conduct analyses solely on those scores. Although this can be accomplished with the data in wide format, you may want to keep it in long format depending on the analyses or data visualization you are interested in conducting. 
+
 
 
 

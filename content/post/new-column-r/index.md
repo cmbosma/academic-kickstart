@@ -8,7 +8,7 @@ authors: ["Colin M. Bosma"]
 tags: ["R", "Data", "Tidying"]
 categories: []
 date: 2020-07-31T00:00:00
-lastmod: 
+lastmod: 2020-07-31T00:22:07-05:00
 featured: false
 draft: false
 

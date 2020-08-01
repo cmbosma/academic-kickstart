@@ -1,0 +1,120 @@
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "Create New Column Based on Values in Another Column in R"
+subtitle: ""
+summary: ""
+authors: ["Colin M. Bosma"]
+tags: ["R", "Data", "Tidying"]
+categories: []
+date: 2020-07-31T00:00:00
+lastmod: 
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
+
+
+### Create New Column Based on Values in Another Column in R
+
+
+Here is a short post on how to create a new column with the values from one column based on the values in separate column. There are a few situations where this might be useful. One is if you have data in long format with your surveys questions in one column and you want to separate the scores of one of the surveys into a separate column for time-series/longitudinal analyses.  Another situation might be that you have several conditions and you want to create a column of scores retaining scores of a subset of the conditions.
+
+
+I recently needed to do this to tidy up some data in long format and noticed that there are no obvious blog posts or stack overflow entries addressing this data tidying scenario. The solutions you will find come with a caveat: if you create a new vector based on values in another vector, you will likely generate a vector with a length that does not match that of the data frame, precluding you from adding it to the data frame. 
+
+I will provide an abstract example and then a real-life example. 
+
+Below we have a table with columns varA and varB. We want to make a new column, varC, with values corresponding to rows with 'c' in the varA column. 
+
+| varA | varB |
+|------|------|
+| a    | 12   |
+| b    | 34   |
+| c    | 23   |
+| a    | 34   |
+| b    | 23   |
+| c    | 13   |
+
+Let's first illustrate the problem. For example, you would think that `df$newVar <- df$varB[(varA == "c")]` would create a new column with values from varB that correspond with varA. The problem is that this approach, and many other approaches, will create a vector the length of the cases that fit the parameters you have for the new vector. In this case, since there are only two rows with "c", the length of the new vector would be 2. 
+
+Okay, now let's work on the solution. We can use the `mutate` and `ifelse` functions from the `tidyverse` to accomplish our task: 
+
+```
+# Load in the `tidyverse` package for the `dplyr` package tidying functions and piping.
+library(tidyverse)
+
+df <- df %>% 
+	mutate(varC = ifelse(varA == "b", varB, NA) 
+```
+
+**What does this code do?**
+
+1. From the data frame, create varC using and ifelse statement and assign it to the original data frame. 
+2. In the ifelse statement, we indicate that if values in varA equal "b", then keep the corresponding value from column varB, else NA. 
+
+Here is the table you would get from this R code.
+
+| varA | varB | varC |
+|------|------|------|
+| a    | 12   | NA   |
+| b    | 34   | 34   |
+| c    | 23   | NA   |
+| a    | 34   | NA   |
+| b    | 23   | 23   |
+| c    | 13   | NA   |
+
+Since these abstract examples can be a little tricky to apply to our own stuff, here's an example resembling a real data set, such as an experiential momentary assessment data set. Below is a table with data in long format. We want to make separate a column for negative affect subscale of the Positive and Negative Affect Schedule (PANAS-X) to conduct analyses solely on those scores. Although this can be accomplished with the data in wide format, you may want to keep it in long format. 
+
+
+
+| id  | time_index | panas_x_subscale | score |
+|-----|------------|------------------|-------|
+| 001 | 1          | panas_x_sad      | 23    |
+| 001 | 2          | pans_x_pa        | 11    |
+| 001 | 3          | panas_x_na       | 6     |
+| 002 | 1          | panas_x_sad      | 3     |
+| 002 | 2          | panas_x_pa       | 2     |
+| 002 | 3          | panas_x_na       | 4     |
+| 003 | 1          | panas_x_sad      | 15    |
+| 003 | 2          | panas_x_pa       | 10    |
+| 003 | 3          | panas_x_na       | 8     |
+
+
+```
+df <- df %>%
+	mutate(panas_x_na = ifelse(panas_x_subscale == "panas_x_na", score, NA)
+```
+
+Below is a data table amended with a vector containing values copied from the score column corresponding with "panas_x_na" in the panas_x_subscale column. 
+
+| id  | time_index | panas_x_subscale | score | panas_x_na |
+|-----|------------|------------------|-------|------------|
+| 001 | 1          | panas_x_sad      | 23    | NA         |
+| 001 | 2          | pans_x_pa        | 11    | NA         |
+| 001 | 3          | panas_x_na       | 6     | 6          |
+| 002 | 1          | panas_x_sad      | 3     | NA         |
+| 002 | 2          | panas_x_pa       | 2     | NA         |
+| 002 | 3          | panas_x_na       | 4     | 4          |
+| 003 | 1          | panas_x_sad      | 15    | NA         |
+| 003 | 2          | panas_x_pa       | 10    | NA         |
+| 003 | 3          | panas_x_na       | 8     | 8          |
+
+
+
+
+	

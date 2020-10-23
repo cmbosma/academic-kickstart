@@ -1,6 +1,5 @@
-## Create New Column Based on Values in Another Column in R
+### Create New Column Based on Values in Another Column in R
 
-****
 
 Here is a short post on how to create a new column with the values from one column based on the values in separate column. There are a few situations where this might be useful. One is if you have data in long format with your surveys questions in one column and you want to separate the scores of one of the surveys into a separate column for time-series/longitudinal analyses.  Another situation might be that you have several conditions and you want to create a column of scores retaining scores of a subset of the conditions.
 
